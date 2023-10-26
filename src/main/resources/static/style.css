@@ -1,0 +1,57 @@
+h2{
+    color: #8fa3d7;  
+    
+}
+
+h2 { font-family: "Trebuchet MS", Verdana, sans-serif; }
+
+h1{
+    color: #ec0b0b;
+    background-color:#1e2b34 ;
+     border: dotted
+}
+
+h1 { font-family: "Trebuchet MS", Verdana, sans-serif; } 
+
+h1 { text-shadow: 2px 4px 5px rgb(145, 69, 69), 0 0 1px red; }
+
+
+body{
+    background-color: #3f536e;
+}
+
+div{
+    background-color: #202224;
+    color: hsl(0, 87%, 47%);
+}
+
+button{
+    color: #ffffff;
+    background-color: #ce221c;
+  border-radius: 4px;
+  animation: pulse 2s infinite;
+  font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #1c67d0;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  button:hover {
+      animation: none;
+  }
